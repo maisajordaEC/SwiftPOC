@@ -1,0 +1,192 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AppAuth (0.95.0)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - DACircularProgress (2.3.1)
+  - FBSDKCoreKit (4.39.1):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.39.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.39.1):
+    - FBSDKCoreKit
+  - GoogleAnalytics (3.14.0)
+  - GoogleSignIn (4.0.2):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GTMAppAuth (0.7.1):
+    - AppAuth (~> 0.95)
+    - GTMSessionFetcher (~> 1.1)
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.2.1):
+    - GTMSessionFetcher/Full (= 1.2.1)
+  - GTMSessionFetcher/Core (1.2.1)
+  - GTMSessionFetcher/Full (1.2.1):
+    - GTMSessionFetcher/Core (= 1.2.1)
+  - HCSStarRatingView (1.4.5)
+  - InAppSettingsKit (2.8)
+  - iOS-MagnifyingGlass (0.0.2)
+  - libPhoneNumber-iOS (0.8.17)
+  - MBCircularProgressBar (0.3.4)
+  - MBProgressHUD (1.0.0)
+  - MKDropdownMenu (1.3.1)
+  - MMDrawerController (0.6.0):
+    - MMDrawerController/Core (= 0.6.0)
+    - MMDrawerController/MMDrawerBarButtonItem (= 0.6.0)
+    - MMDrawerController/MMDrawerVisualStates (= 0.6.0)
+    - MMDrawerController/Subclass (= 0.6.0)
+  - MMDrawerController/Core (0.6.0)
+  - MMDrawerController/MMDrawerBarButtonItem (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.6.0):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.6.0):
+    - MMDrawerController/Core
+  - NewRelicAgent (6.5.0)
+  - "NSData+Base64 (1.0.0)"
+  - ObjectAL-for-iPhone (2.5.2)
+  - OCMock (3.4.3)
+  - Phone-Country-Code-and-Flags (0.2.1)
+  - PhoneCountryCodePicker (0.2.0):
+    - Phone-Country-Code-and-Flags
+  - TwilioChatClient (2.4.5)
+  - TwilioVideo (2.8.1)
+  - UAAppReviewManager (0.2.6)
+  - "UIImage+PDF (1.1.3)"
+
+DEPENDENCIES:
+  - AFNetworking (= 3.2.1)
+  - CocoaLumberjack (= 3.4.2)
+  - DACircularProgress (= 2.3.1)
+  - FBSDKCoreKit (= 4.39.1)
+  - FBSDKLoginKit (= 4.39.1)
+  - FBSDKShareKit (= 4.39.1)
+  - GoogleAnalytics (= 3.14.0)
+  - GoogleSignIn (= 4.0.2)
+  - GTMAppAuth (= 0.7.1)
+  - GTMSessionFetcher (= 1.2.1)
+  - HCSStarRatingView (= 1.4.5)
+  - InAppSettingsKit (= 2.8)
+  - iOS-MagnifyingGlass (= 0.0.2)
+  - libPhoneNumber-iOS (= 0.8.17)
+  - MBCircularProgressBar (= 0.3.4)
+  - MBProgressHUD (= 1.0.0)
+  - MKDropdownMenu (= 1.3.1)
+  - MMDrawerController (= 0.6.0)
+  - NewRelicAgent (= 6.5.0)
+  - "NSData+Base64 (= 1.0.0)"
+  - ObjectAL-for-iPhone (= 2.5.2)
+  - OCMock
+  - PhoneCountryCodePicker
+  - TwilioChatClient (= 2.4.5)
+  - TwilioVideo (= 2.8.1)
+  - UAAppReviewManager (= 0.2.6)
+  - "UIImage+PDF (= 1.1.3)"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AppAuth
+    - Bolts
+    - CocoaLumberjack
+    - DACircularProgress
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - GoogleAnalytics
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMAppAuth
+    - GTMOAuth2
+    - GTMSessionFetcher
+    - HCSStarRatingView
+    - InAppSettingsKit
+    - iOS-MagnifyingGlass
+    - libPhoneNumber-iOS
+    - MBCircularProgressBar
+    - MBProgressHUD
+    - MKDropdownMenu
+    - MMDrawerController
+    - NewRelicAgent
+    - "NSData+Base64"
+    - ObjectAL-for-iPhone
+    - OCMock
+    - Phone-Country-Code-and-Flags
+    - PhoneCountryCodePicker
+    - TwilioChatClient
+    - TwilioVideo
+    - UAAppReviewManager
+    - "UIImage+PDF"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AppAuth: 137f6bb6fc9dfbaf2cf9f6fcff1d336ff0163bc6
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FBSDKCoreKit: f442aa96179cc9b382bb4abeb7e340a47cca8f91
+  FBSDKLoginKit: c3079d9a4db27c492287b1eed7a4272b28cf8a59
+  FBSDKShareKit: 27d7b982e7b1f4638da2f2b1ab6eba5afc6b5888
+  GoogleAnalytics: 9be1afdb8deeac4bb5f13ca7f7d3b9db2a1f43dc
+  GoogleSignIn: d7ad83f13480e1f30453471d00d19b5293ac46af
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GTMAppAuth: c5e41aaf039ac1ccc41543e6ea2ef7abd255ad41
+  GTMOAuth2: e8b6512c896235149df975c41d9a36c868ab7fba
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  HCSStarRatingView: bff3f89314d3b5013ce826ea11897d3129ff6b8c
+  InAppSettingsKit: fe3e73f8f9530cdd6270065cd7df7b3773f557e6
+  iOS-MagnifyingGlass: b11b7d3e8be7de22c85f0edcaa75538bdf0827dc
+  libPhoneNumber-iOS: 9f083847f8cb9b81064cff2ed2c98cbf18d9f9f2
+  MBCircularProgressBar: ff3b8e2f441214d9ee122a24ba0d4d00cc7de881
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MKDropdownMenu: 4c08580d8eac5b0229845cfd52775cdc7af77aad
+  MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  NewRelicAgent: 48428cd06526d3f3fa2466b3c5611e88928d7a18
+  "NSData+Base64": 4e84902c4db907a15673474677e57763ef3903e4
+  ObjectAL-for-iPhone: fa4c7a8b09dba6de7ef97778f0c1f72c3d297c0a
+  OCMock: 43565190abc78977ad44a61c0d20d7f0784d35ab
+  Phone-Country-Code-and-Flags: 19b303483d6e14091a1e3a404ec2aac8f08a985c
+  PhoneCountryCodePicker: 3d8a797562bbcd2309944e0b683eadaa824cacad
+  TwilioChatClient: e24b87a0d00a3a19803703e3330c4a1a80f13f95
+  TwilioVideo: 482bbbb23807e424e00500c367fea3656e136d61
+  UAAppReviewManager: 334bdb0085c3f80c7b696f33edc53667eda548e6
+  "UIImage+PDF": b8352e731529d8704b8b1bb1c086884ab61cd550
+
+PODFILE CHECKSUM: a7939a3bdec52ecae4dfce71675616903d929321
+
+COCOAPODS: 1.5.3

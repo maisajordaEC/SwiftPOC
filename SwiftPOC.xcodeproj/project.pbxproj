@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB1CAD492296626D00E9523B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1CAD482296626D00E9523B /* AppDelegate.swift */; };
+		BB1CAD4B2296626D00E9523B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1CAD4A2296626D00E9523B /* ViewController.swift */; };
+		BB1CAD4E2296626D00E9523B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1CAD4C2296626D00E9523B /* Main.storyboard */; };
+		BB1CAD502296626E00E9523B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1CAD4F2296626E00E9523B /* Assets.xcassets */; };
+		BB1CAD532296626E00E9523B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1CAD512296626E00E9523B /* LaunchScreen.storyboard */; };
+		BB310F552296AEFA000D65BA /* icon-coin-star.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BB310F542296AEFA000D65BA /* icon-coin-star.pdf */; };
+		BB310F7F2296CA55000D65BA /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BB310F592296CA54000D65BA /* WebViewJavascriptBridgeBase.m */; };
+		BB310F802296CA55000D65BA /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = BB310F5A2296CA54000D65BA /* WKWebViewJavascriptBridge.m */; };
+		BB310F812296CA55000D65BA /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = BB310F5B2296CA54000D65BA /* WebViewJavascriptBridge.m */; };
+		BB310F822296CA55000D65BA /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = BB310F5E2296CA54000D65BA /* WebViewJavascriptBridge_JS.m */; };
+		BB310F832296CA55000D65BA /* OAuthCore.m in Sources */ = {isa = PBXBuildFile; fileRef = BB310F642296CA54000D65BA /* OAuthCore.m */; };
+		BB310F842296CA55000D65BA /* OAuth+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB310F652296CA54000D65BA /* OAuth+Additions.m */; };
+		BB310F852296CA55000D65BA /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BB310F682296CA54000D65BA /* RNCryptor.m */; };
+		BB310F862296CA55000D65BA /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BB310F6E2296CA54000D65BA /* RNDecryptor.m */; };
+		BB310F872296CA55000D65BA /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = BB310F6F2296CA54000D65BA /* RNEncryptor.m */; };
+		BB310F882296CA55000D65BA /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = BB310F702296CA54000D65BA /* RNCryptorEngine.m */; };
+		BB310F892296CA55000D65BA /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB310F732296CA54000D65BA /* AudioStreamer.m */; };
+		BB310F8B2296CA55000D65BA /* Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = BB310F7A2296CA54000D65BA /* Algorithm.m */; };
+		BB310F8C2296CA55000D65BA /* Jwt.m in Sources */ = {isa = PBXBuildFile; fileRef = BB310F7B2296CA54000D65BA /* Jwt.m */; };
+		BB310F8D2296CA55000D65BA /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB310F7E2296CA54000D65BA /* TTTAttributedLabel.m */; };
+		EE24270B00440700B74F8B29 /* Pods_SwiftPOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D79E2316B121D927498142D /* Pods_SwiftPOC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D79E2316B121D927498142D /* Pods_SwiftPOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftPOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1CAD452296626D00E9523B /* SwiftPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1CAD482296626D00E9523B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB1CAD4A2296626D00E9523B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB1CAD4D2296626D00E9523B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB1CAD4F2296626E00E9523B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB1CAD522296626E00E9523B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB1CAD542296626E00E9523B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB310F5022969B09000D65BA /* SwiftPOC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftPOC-Bridging-Header.h"; sourceTree = "<group>"; };
+		BB310F542296AEFA000D65BA /* icon-coin-star.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "icon-coin-star.pdf"; sourceTree = "<group>"; };
+		BB310F592296CA54000D65BA /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		BB310F5A2296CA54000D65BA /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		BB310F5B2296CA54000D65BA /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		BB310F5C2296CA54000D65BA /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		BB310F5D2296CA54000D65BA /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		BB310F5E2296CA54000D65BA /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		BB310F5F2296CA54000D65BA /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		BB310F602296CA54000D65BA /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		BB310F622296CA54000D65BA /* OAuthCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthCore.h; sourceTree = "<group>"; };
+		BB310F632296CA54000D65BA /* OAuth+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAuth+Additions.h"; sourceTree = "<group>"; };
+		BB310F642296CA54000D65BA /* OAuthCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthCore.m; sourceTree = "<group>"; };
+		BB310F652296CA54000D65BA /* OAuth+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OAuth+Additions.m"; sourceTree = "<group>"; };
+		BB310F672296CA54000D65BA /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		BB310F682296CA54000D65BA /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
+		BB310F692296CA54000D65BA /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
+		BB310F6A2296CA54000D65BA /* RNCryptor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-Prefix.pch"; sourceTree = "<group>"; };
+		BB310F6B2296CA54000D65BA /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		BB310F6C2296CA54000D65BA /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
+		BB310F6D2296CA54000D65BA /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		BB310F6E2296CA54000D65BA /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
+		BB310F6F2296CA54000D65BA /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
+		BB310F702296CA54000D65BA /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
+		BB310F722296CA54000D65BA /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		BB310F732296CA54000D65BA /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		BB310F782296CA54000D65BA /* Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
+		BB310F792296CA54000D65BA /* Jwt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jwt.h; sourceTree = "<group>"; };
+		BB310F7A2296CA54000D65BA /* Algorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Algorithm.m; sourceTree = "<group>"; };
+		BB310F7B2296CA54000D65BA /* Jwt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jwt.m; sourceTree = "<group>"; };
+		BB310F7D2296CA54000D65BA /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		BB310F7E2296CA54000D65BA /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		BE71796B3776653F10D33CC8 /* Pods-SwiftPOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPOC/Pods-SwiftPOC.debug.xcconfig"; sourceTree = "<group>"; };
+		D66B43012C2F2D2DE2138B86 /* Pods-SwiftPOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPOC/Pods-SwiftPOC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB1CAD422296626D00E9523B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE24270B00440700B74F8B29 /* Pods_SwiftPOC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03635E2B9E71DC5D80CC7536 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D79E2316B121D927498142D /* Pods_SwiftPOC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6294A39AFEA80D514234E607 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE71796B3776653F10D33CC8 /* Pods-SwiftPOC.debug.xcconfig */,
+				D66B43012C2F2D2DE2138B86 /* Pods-SwiftPOC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB1CAD3C2296626D00E9523B = {
+			isa = PBXGroup;
+			children = (
+				BB1CAD472296626D00E9523B /* SwiftPOC */,
+				BB310F562296CA54000D65BA /* vendor */,
+				BB310F532296AEFA000D65BA /* assets */,
+				BB1CAD462296626D00E9523B /* Products */,
+				6294A39AFEA80D514234E607 /* Pods */,
+				03635E2B9E71DC5D80CC7536 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB1CAD462296626D00E9523B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB1CAD452296626D00E9523B /* SwiftPOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB1CAD472296626D00E9523B /* SwiftPOC */ = {
+			isa = PBXGroup;
+			children = (
+				BB1CAD482296626D00E9523B /* AppDelegate.swift */,
+				BB1CAD4A2296626D00E9523B /* ViewController.swift */,
+				BB1CAD4C2296626D00E9523B /* Main.storyboard */,
+				BB1CAD4F2296626E00E9523B /* Assets.xcassets */,
+				BB1CAD512296626E00E9523B /* LaunchScreen.storyboard */,
+				BB1CAD542296626E00E9523B /* Info.plist */,
+				BB310F5022969B09000D65BA /* SwiftPOC-Bridging-Header.h */,
+			);
+			path = SwiftPOC;
+			sourceTree = "<group>";
+		};
+		BB310F532296AEFA000D65BA /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				BB310F542296AEFA000D65BA /* icon-coin-star.pdf */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		BB310F562296CA54000D65BA /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				BB310F572296CA54000D65BA /* include */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		BB310F572296CA54000D65BA /* include */ = {
+			isa = PBXGroup;
+			children = (
+				BB310F582296CA54000D65BA /* WebViewJavascriptBridge */,
+				BB310F612296CA54000D65BA /* OAuthCore */,
+				BB310F662296CA54000D65BA /* RNCryptor */,
+				BB310F712296CA54000D65BA /* AudioStreamer */,
+				BB310F772296CA54000D65BA /* Objective-c-jwt */,
+				BB310F7C2296CA54000D65BA /* TTTAttributedLabel */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		BB310F582296CA54000D65BA /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				BB310F592296CA54000D65BA /* WebViewJavascriptBridgeBase.m */,
+				BB310F5A2296CA54000D65BA /* WKWebViewJavascriptBridge.m */,
+				BB310F5B2296CA54000D65BA /* WebViewJavascriptBridge.m */,
+				BB310F5C2296CA54000D65BA /* WebViewJavascriptBridge_JS.h */,
+				BB310F5D2296CA54000D65BA /* WebViewJavascriptBridgeBase.h */,
+				BB310F5E2296CA54000D65BA /* WebViewJavascriptBridge_JS.m */,
+				BB310F5F2296CA54000D65BA /* WebViewJavascriptBridge.h */,
+				BB310F602296CA54000D65BA /* WKWebViewJavascriptBridge.h */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		BB310F612296CA54000D65BA /* OAuthCore */ = {
+			isa = PBXGroup;
+			children = (
+				BB310F622296CA54000D65BA /* OAuthCore.h */,
+				BB310F632296CA54000D65BA /* OAuth+Additions.h */,
+				BB310F642296CA54000D65BA /* OAuthCore.m */,
+				BB310F652296CA54000D65BA /* OAuth+Additions.m */,
+			);
+			path = OAuthCore;
+			sourceTree = "<group>";
+		};
+		BB310F662296CA54000D65BA /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				BB310F672296CA54000D65BA /* RNDecryptor.h */,
+				BB310F682296CA54000D65BA /* RNCryptor.m */,
+				BB310F692296CA54000D65BA /* RNCryptor+Private.h */,
+				BB310F6A2296CA54000D65BA /* RNCryptor-Prefix.pch */,
+				BB310F6B2296CA54000D65BA /* RNCryptorEngine.h */,
+				BB310F6C2296CA54000D65BA /* RNEncryptor.h */,
+				BB310F6D2296CA54000D65BA /* RNCryptor.h */,
+				BB310F6E2296CA54000D65BA /* RNDecryptor.m */,
+				BB310F6F2296CA54000D65BA /* RNEncryptor.m */,
+				BB310F702296CA54000D65BA /* RNCryptorEngine.m */,
+			);
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+		BB310F712296CA54000D65BA /* AudioStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				BB310F722296CA54000D65BA /* AudioStreamer.h */,
+				BB310F732296CA54000D65BA /* AudioStreamer.m */,
+			);
+			path = AudioStreamer;
+			sourceTree = "<group>";
+		};
+		BB310F772296CA54000D65BA /* Objective-c-jwt */ = {
+			isa = PBXGroup;
+			children = (
+				BB310F782296CA54000D65BA /* Algorithm.h */,
+				BB310F792296CA54000D65BA /* Jwt.h */,
+				BB310F7A2296CA54000D65BA /* Algorithm.m */,
+				BB310F7B2296CA54000D65BA /* Jwt.m */,
+			);
+			path = "Objective-c-jwt";
+			sourceTree = "<group>";
+		};
+		BB310F7C2296CA54000D65BA /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BB310F7D2296CA54000D65BA /* TTTAttributedLabel.h */,
+				BB310F7E2296CA54000D65BA /* TTTAttributedLabel.m */,
+			);
+			path = TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB1CAD442296626D00E9523B /* SwiftPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1CAD572296626E00E9523B /* Build configuration list for PBXNativeTarget "SwiftPOC" */;
+			buildPhases = (
+				EFD3DB8E962DD38547F333DF /* [CP] Check Pods Manifest.lock */,
+				BB1CAD412296626D00E9523B /* Sources */,
+				BB1CAD422296626D00E9523B /* Frameworks */,
+				BB1CAD432296626D00E9523B /* Resources */,
+				C59993AF8A4E842C6C6E8522 /* [CP] Embed Pods Frameworks */,
+				ED929C28AFD8A7F2FFCE3D26 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftPOC;
+			productName = SwiftPOC;
+			productReference = BB1CAD452296626D00E9523B /* SwiftPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB1CAD3D2296626D00E9523B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Mailyn Sajorda";
+				TargetAttributes = {
+					BB1CAD442296626D00E9523B = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = BB1CAD402296626D00E9523B /* Build configuration list for PBXProject "SwiftPOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB1CAD3C2296626D00E9523B;
+			productRefGroup = BB1CAD462296626D00E9523B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB1CAD442296626D00E9523B /* SwiftPOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB1CAD432296626D00E9523B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1CAD532296626E00E9523B /* LaunchScreen.storyboard in Resources */,
+				BB1CAD502296626E00E9523B /* Assets.xcassets in Resources */,
+				BB310F552296AEFA000D65BA /* icon-coin-star.pdf in Resources */,
+				BB1CAD4E2296626D00E9523B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C59993AF8A4E842C6C6E8522 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftPOC/Pods-SwiftPOC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/HCSStarRatingView/HCSStarRatingView.framework",
+				"${BUILT_PRODUCTS_DIR}/InAppSettingsKit/InAppSettingsKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MBCircularProgressBar/MBCircularProgressBar.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MKDropdownMenu/MKDropdownMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/MMDrawerController/MMDrawerController.framework",
+				"${BUILT_PRODUCTS_DIR}/NSData+Base64/NSData_Base64.framework",
+				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectAL-for-iPhone/ObjectAL_for_iPhone.framework",
+				"${BUILT_PRODUCTS_DIR}/PhoneCountryCodePicker/PhoneCountryCodePicker.framework",
+				"${PODS_ROOT}/TwilioChatClient/TwilioChatClient.framework",
+				"${PODS_ROOT}/TwilioChatClient/TwilioChatClient.framework.dSYM",
+				"${PODS_ROOT}/TwilioVideo/Build/iOS/TwilioVideo.framework",
+				"${BUILT_PRODUCTS_DIR}/UAAppReviewManager/UAAppReviewManager.framework",
+				"${BUILT_PRODUCTS_DIR}/UIImage+PDF/UIImage_PDF.framework",
+				"${BUILT_PRODUCTS_DIR}/iOS-MagnifyingGlass/iOS_MagnifyingGlass.framework",
+				"${BUILT_PRODUCTS_DIR}/libPhoneNumber-iOS/libPhoneNumber_iOS.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HCSStarRatingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InAppSettingsKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBCircularProgressBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MKDropdownMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMDrawerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NSData_Base64.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectAL_for_iPhone.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneCountryCodePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwilioChatClient.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/TwilioChatClient.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwilioVideo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UAAppReviewManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIImage_PDF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_MagnifyingGlass.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libPhoneNumber_iOS.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftPOC/Pods-SwiftPOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED929C28AFD8A7F2FFCE3D26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftPOC/Pods-SwiftPOC-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/Phone-Country-Code-and-Flags/Phone-Country-Code-and-Flags.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Phone-Country-Code-and-Flags.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftPOC/Pods-SwiftPOC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFD3DB8E962DD38547F333DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftPOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB1CAD412296626D00E9523B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1CAD4B2296626D00E9523B /* ViewController.swift in Sources */,
+				BB310F8D2296CA55000D65BA /* TTTAttributedLabel.m in Sources */,
+				BB310F802296CA55000D65BA /* WKWebViewJavascriptBridge.m in Sources */,
+				BB310F822296CA55000D65BA /* WebViewJavascriptBridge_JS.m in Sources */,
+				BB310F892296CA55000D65BA /* AudioStreamer.m in Sources */,
+				BB310F8C2296CA55000D65BA /* Jwt.m in Sources */,
+				BB310F7F2296CA55000D65BA /* WebViewJavascriptBridgeBase.m in Sources */,
+				BB310F862296CA55000D65BA /* RNDecryptor.m in Sources */,
+				BB310F832296CA55000D65BA /* OAuthCore.m in Sources */,
+				BB310F852296CA55000D65BA /* RNCryptor.m in Sources */,
+				BB1CAD492296626D00E9523B /* AppDelegate.swift in Sources */,
+				BB310F8B2296CA55000D65BA /* Algorithm.m in Sources */,
+				BB310F872296CA55000D65BA /* RNEncryptor.m in Sources */,
+				BB310F882296CA55000D65BA /* RNCryptorEngine.m in Sources */,
+				BB310F812296CA55000D65BA /* WebViewJavascriptBridge.m in Sources */,
+				BB310F842296CA55000D65BA /* OAuth+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB1CAD4C2296626D00E9523B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB1CAD4D2296626D00E9523B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB1CAD512296626E00E9523B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB1CAD522296626E00E9523B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB1CAD552296626E00E9523B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftPOC/SwiftPOC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB1CAD562296626E00E9523B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftPOC/SwiftPOC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB1CAD582296626E00E9523B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE71796B3776653F10D33CC8 /* Pods-SwiftPOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H62ZQ6QKE;
+				INFOPLIST_FILE = SwiftPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.englishcentral.mobile.ios.SwiftPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB1CAD592296626E00E9523B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66B43012C2F2D2DE2138B86 /* Pods-SwiftPOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9H62ZQ6QKE;
+				INFOPLIST_FILE = SwiftPOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.englishcentral.mobile.ios.SwiftPOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB1CAD402296626D00E9523B /* Build configuration list for PBXProject "SwiftPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1CAD552296626E00E9523B /* Debug */,
+				BB1CAD562296626E00E9523B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1CAD572296626E00E9523B /* Build configuration list for PBXNativeTarget "SwiftPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1CAD582296626E00E9523B /* Debug */,
+				BB1CAD592296626E00E9523B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB1CAD3D2296626D00E9523B /* Project object */;
+}
